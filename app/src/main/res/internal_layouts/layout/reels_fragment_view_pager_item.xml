@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notification_icon" />
+
+
+    <TextView
+        android:id="@+id/reelsFragmentViewPagerLikesCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120k"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#01FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/reelsFragmentViewPagerLikesCount"
+        app:layout_constraintStart_toStartOf="@+id/reelsFragmentViewPagerLikesCount"
+        app:layout_constraintTop_toBottomOf="@+id/reelsFragmentViewPagerLikesCount"
+        app:srcCompat="@drawable/ic_right_chat_cloud" />
+
+    <TextView
+        android:id="@+id/reelsFragmentViewPagercommentCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="920"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintStart_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/reelsFragmentViewPagercommentCountTextView"
+        app:layout_constraintStart_toStartOf="@+id/reelsFragmentViewPagercommentCountTextView"
+        app:layout_constraintTop_toBottomOf="@+id/reelsFragmentViewPagercommentCountTextView"
+        app:srcCompat="@drawable/ic_send2" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="38dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@drawable/ic_options" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/reelsFragmentViewPagerUserDpImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/insta_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Haririo"
+        android:textColor="#2B2A2A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/reelsFragmentViewPagerUserDpImageView"
+        app:layout_constraintStart_toEndOf="@+id/reelsFragmentViewPagerUserDpImageView"
+        app:layout_constraintTop_toTopOf="@+id/reelsFragmentViewPagerUserDpImageView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:text="message"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reelsFragmentViewPagerUserDpImageView"
+        app:layout_constraintVertical_bias="0.528" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

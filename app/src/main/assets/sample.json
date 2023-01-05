@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "profile": {
+        "username": "haririo",
+        "firstname": "hari",
+        "description": "I am one of the masters in judo",
+        "dp": "https://images2.imgbox.com/5b/02/QcxHUb5V_o.png",
+        "lastname": "prasath",
+        "contact": "9597796313",
+        "dob":"04.11.1998",
+        "mail": "hariprasath.tn@gmail.com",
+        "security_question": "what is your name",
+        "security_answer": "jumanji",
+        "account_type": "public",
+        "password": "hecz930"
+      },
+      "posts": [
+        {
+          "post_id": "haririo_post_1",
+          "image": ["https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/4a/80/k1oAkY0k_o.png", "https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/66/b4/8KZsjbt4_o.png"],
+          "date": "28.11.2022",
+          "message": "This is an sample post",
+          "tagged_persons": [
+            "haririo"
+          ],
+          "liked_person": [
+            "haririo"
+          ],
+          "comments_ids": [
+            "haririo_1",
+            "haririo_2"
+          ],
+          "comments_count":2,
+          "shared": "0",
+          "views": 0
+        },
+        {
+          "post_id": "haririo_post_2",
+          "image": ["https://images2.imgbox.com/4a/80/k1oAkY0k_o.png", "https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/66/b4/8KZsjbt4_o.png"],
+          "date": "28.11.2022",
+          "message": "This is an sample post",
+          "tagged_persons": [
+            "haririo"
+          ],
+          "liked_person": [
+            "haririo"
+          ],
+          "comments_ids": [
+            "haririo_1",
+            "haririo_2"
+          ],
+          "comments_count":2,
+          "shared": 0,
+          "views": 0
+        }
+
+      ],
+      "comments": [
+        {
+          "comment_id": "haririo_1",
+          "username": "haririo",
+          "sub_comments_id": "sub_haririo_1",
+          "date": "20.11.1999",
+          "likes":[
+            "haririo",
+            "haririo"
+          ]
+        },
+        {
+          "comment_id": "haririo_2",
+          "username": "haririo",
+          "sub_comments_id": "sub_haririo_1",
+          "date": "20.11.1999",
+          "likes":[
+            "haririo",
+            "haririo"
+          ]
+        }
+      ],
+      "followers": [
+        "haririo"
+      ],
+      "following": [
+        "haririo"
+      ],
+      "tags": [
+        "haririo_post_1",
+        "haririo_post_2"
+      ],
+      "messages": [
+          {
+            "username": "haririo",
+            "message": [["28.11.1999", "me", "test message", "12.54", "test message"], ["28.11.1999", "him", "test message", "12.55", ""]]
+          }
+      ]
+    },
+    {
+      "profile": {
+        "username": "haririo321",
+        "firstname": "hari",
+        "description": "I am one of the masters in judo",
+        "dp": "https://images2.imgbox.com/92/e4/7Cf6MLY0_o.png",
+        "lastname": "prasath",
+        "contact": "9597796313",
+        "dob":"04.11.1998",
+        "mail": "hariprasath.tn@gmail.com",
+        "security_question": "what is your name",
+        "security_answer": "jumanji",
+        "account_type": "public",
+        "password": "hecz930"
+      },
+      "posts": [
+        {
+          "post_id": "haririo_post_4",
+          "image": ["https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/4a/80/k1oAkY0k_o.png", "https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/66/b4/8KZsjbt4_o.png"],
+          "date": "28.11.2022",
+          "message": "User2.1 : This is an sample post",
+          "tagged_persons": [
+            "haririo"
+          ],
+          "liked_person": [
+            "haririo"
+          ],
+          "comments_ids": [
+            "haririo_1",
+            "haririo_2"
+          ],
+          "comments_count":2,
+          "shared": "0",
+          "views": 0
+        },
+        {
+          "post_id": "haririo_post_5",
+          "image": ["https://images2.imgbox.com/66/b4/8KZsjbt4_o.png", "https://images2.imgbox.com/4a/80/k1oAkY0k_o.png", "https://images2.imgbox.com/80/a2/bkWotCIS_o.png", "https://images2.imgbox.com/80/a2/bkWotCIS_o.png"],
+          "date": "28.11.2022",
+          "message": "User2.2 : This is an sample post",
+          "tagged_persons": [
+            "haririo"
+          ],
+          "liked_person": [
+            "haririo"
+          ],
+          "comments_ids": [
+            "haririo_1",
+            "haririo_2"
+          ],
+          "comments_count":2,
+          "shared": 0,
+          "views": 0
+        }
+
+      ],
+      "comments": [
+        {
+          "comment_id": "haririo_1",
+          "username": "haririo",
+          "sub_comments_id": "sub_haririo_1",
+          "date": "20.11.1999",
+          "likes":[
+            "haririo",
+            "haririo"
+          ]
+        },
+        {
+          "comment_id": "haririo_2",
+          "username": "haririo",
+          "sub_comments_id": "sub_haririo_1",
+          "date": "20.11.1999",
+          "likes":[
+            "haririo",
+            "haririo"
+          ]
+        }
+      ],
+      "followers": [
+        "haririo"
+      ],
+      "following": [
+        "haririo"
+      ],
+      "tags": [
+        "haririo_post_1",
+        "haririo_post_2"
+      ],
+      "messages": [
+        {
+          "username": "haririo",
+          "message": [["28.11.1999", "me", "test message", "12.54", "test message"], ["28.11.1999", "him", "test message", "12.55", ""]]
+        }
+      ]
+    }
+  ]
+}

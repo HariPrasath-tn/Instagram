@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_bottom_navigator"
+    app:startDestination="@id/profilePostsFragment">
+
+    <fragment
+        android:id="@+id/profilePostsFragment"
+        android:name="com.rio.instagram.view.default_activity_fragments.profile_fragments.ProfilePostsFragment"
+        android:label="fragment_profile_posts"
+        tools:layout="@layout/fragment_profile_posts" />
+    <fragment
+        android:id="@+id/profileTagsFragments"
+        android:name="com.rio.instagram.view.default_activity_fragments.profile_fragments.ProfileTagsFragments"
+        android:label="fragment_profile_tags_fragments"
+        tools:layout="@layout/fragment_profile_tags_fragments" />
+    <fragment
+        android:id="@+id/profileReelsFragment2"
+        android:name="com.rio.instagram.view.default_activity_fragments.profile_fragments.ProfileReelsFragment"
+        android:label="fragment_profile_reels"
+        tools:layout="@layout/fragment_profile_reels" />
+</navigation>

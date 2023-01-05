@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="posts"
+        android:id="@+id/profilePostsFragment"
+        android:icon="@drawable/posts_icon"/>
+    <item android:title="reels"
+        android:id="@+id/profileReelsFragment"
+        android:icon="@drawable/videos_icon"/>
+    <item android:title="tags"
+        android:id="@+id/profileTagsFragments"
+        android:icon="@drawable/tag_icon"/>
+</menu>

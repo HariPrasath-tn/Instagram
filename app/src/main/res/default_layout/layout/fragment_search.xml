@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.default_activity_fragments.SearchFragment">
+
+        <include
+            android:id="@+id/searchFragmentOnClickedView"
+            layout="@layout/search_fragment_on_clicked_layout"
+            android:visibility="gone"/>
+        <include
+            android:id="@+id/searchFragmentDefaultLayout"
+            layout="@layout/search_fragment_default_layout"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/boder_shade_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/homeFramgentBottomRecyclerViewDpImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/insta_icon" />
+
+    <TextView
+        android:id="@+id/homeFragmentRecyclerViewUserProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Haririo"
+        android:textAllCaps="false"
+        android:textColor="#2D2B2B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/homeFramgentBottomRecyclerViewDpImageView"
+        app:layout_constraintStart_toEndOf="@+id/homeFramgentBottomRecyclerViewDpImageView"
+        app:layout_constraintTop_toTopOf="@+id/homeFramgentBottomRecyclerViewDpImageView" />
+
+    <ImageButton
+        android:id="@+id/homeFragmentRecyclerViewLikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeFragmentRecyclerViewViewPager"
+        app:srcCompat="@drawable/notification_icon" />
+
+    <ImageButton
+        android:id="@+id/homeFragmentRecyclerViewCommentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/homeFragmentRecyclerViewLikeButton"
+        app:layout_constraintTop_toTopOf="@+id/homeFragmentRecyclerViewLikeButton"
+        app:srcCompat="@drawable/ic_right_chat_cloud" />
+
+    <ImageButton
+        android:id="@+id/homeFragmentRecyclerviewShareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/homeFragmentRecyclerViewCommentButton"
+        app:layout_constraintTop_toTopOf="@+id/homeFragmentRecyclerViewCommentButton"
+        app:srcCompat="@drawable/ic_send2" />
+
+    <ImageButton
+        android:id="@+id/homeFragmentRecyclerViewOptionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#04FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toEndOf="@+id/homeFragmentRecyclerViewUserProfileName"
+        app:layout_constraintTop_toTopOf="@+id/homeFragmentRecyclerViewUserProfileName"
+        app:srcCompat="@drawable/ic_options" />
+
+    <TextView
+        android:id="@+id/homeFragmentRecyclerViewLikedByTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Haririo"
+        android:textColor="#2D2B2B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/homeFragmentRecyclerViewLikedInfo"
+        app:layout_constraintTop_toTopOf="@+id/homeFragmentRecyclerViewLikedInfo" />
+
+    <TextView
+        android:id="@+id/homeFragmentRecyclerViewLikedInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Liked by "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeFragmentRecyclerViewLikeButton" />
+
+    <ImageButton
+        android:id="@+id/homeFragmentRecyclerViewSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homeFragmentRecyclerviewShareButton"
+        app:srcCompat="@drawable/save_icon" />
+
+    <TextView
+        android:id="@+id/homeFragmentRecyclerViewMessageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#97D7C6C6"
+        android:padding="5dp"
+        android:text="Message"
+        app:layout_constraintBottom_toBottomOf="@+id/homeFragmentRecyclerViewViewPager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/homeFragmentRecyclerViewViewPager"
+        android:layout_width="0dp"
+        android:layout_height="465dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/homeFramgentBottomRecyclerViewDpImageView"
+        tools:layout_editor_absoluteX="1dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
